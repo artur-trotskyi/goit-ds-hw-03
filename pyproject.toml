@@ -9,6 +9,9 @@ packages = [{ include = "mongo_homework" }]
 
 [tool.poetry.dependencies]
 python = "3.12.8"
+pymongo = "^10.10.10.10"
+python-dotenv = "^1.0.1"
+faker = "^35.0.0"
 
 [build-system]
 requires = ["poetry-core"]
